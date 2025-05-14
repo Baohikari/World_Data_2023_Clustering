@@ -1,12 +1,13 @@
-# 📊 Clustering with DBSCAN and KMeans
+# 🌍 World Data Clustering with KMeans and DBSCAN
 
-A machine learning project demonstrating how to perform unsupervised clustering using **DBSCAN** and **KMeans** on 2D synthetic data. This project helps visualize the differences between density-based and centroid-based clustering approaches.
+This project applies **unsupervised clustering** algorithms — **KMeans** and **DBSCAN** — to explore and analyze global indicators using the `world_Data_2023` dataset. Evaluation is conducted using **Silhouette Score** and **Davies-Bouldin Score** to assess cluster quality.
 
 ---
 
 ## 🧠 Algorithms Used
 
 - **KMeans** (Centroid-based clustering)
-- **DBSCAN** (Density-Based Spatial Clustering of Applications with Noise)
-
----
+- **DBSCAN** (Density-based clustering)
+- Evaluation:
+  - **Silhouette Score**
+  - **Davies-Bouldin Score**
